@@ -31,7 +31,7 @@ class TestSimonSays < MiniTest::Test
   # take one *or* two arguments?
   #
   # def repeat(string, num = 1)
-  #   # your code here
+  #   string.inject {|string, num| string * num}
   # end
   #
   # The important part is num = 1. What happens is if a num isn't given,
